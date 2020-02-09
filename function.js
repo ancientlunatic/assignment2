@@ -6,7 +6,6 @@ var RockPappeSecissorGameRules = /** @class */ (function () {
         this.computerPoint = 0;
     }
     RockPappeSecissorGameRules.prototype.play = function (id) {
-        // {   let x = document.getElementById(id).parentElement() as HTMLDivElement;
         var userChoice = parseInt(id);
         var computerChoice = Math.floor(Math.random() * 3);
         var result = document.getElementById('output');

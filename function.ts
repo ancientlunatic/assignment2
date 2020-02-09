@@ -11,7 +11,7 @@ class RockPappeSecissorGameRules
     }
     play(id:string)
     {
-        // {   let x = document.getElementById(id).parentElement() as HTMLDivElement;
+     
         let userChoice:number= parseInt(id)
         let computerChoice = Math.floor(Math.random()*3);
         let result = (document.getElementById('output')as HTMLDivElement)
